@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Marielle2Nice</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+
+        <figure>
+            <img src="https://bbs.oppo.com/upload/image/20220131/597530515/991611638862053385/991611638862053385.jpg" alt="Description of the image">
+        </figure>
+
+        <h2>Form</h2>
+
+        <form action="#" method="post" id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required minlength="8">
+
+            <label>Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+
+            <label for="terms">Accept Terms and Conditions:</label>
+            <input type="checkbox" id="terms" name="terms" required>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <h2>Table</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>25</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>30</td>
+                    <td>Los Angeles</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>About Us</h2>
+        <p>Welcome to Marielle2Nice, where elegance meets warmth! We are more than just a brand; we are a community that celebrates the essence of niceness and style. Marielle2Nice is your go-to destination for exquisite fashion, unique accessories, and a touch of genuine kindness.</p>
+
+        <h3>Our Story</h3>
+        <p>Marielle2Nice was born out of a simple yet powerful idea – to create a space where individuals can express their unique style while radiating positivity and kindness. Founded by a team of passionate fashion enthusiasts, Marielle2Nice is not just a brand; it's a movement to make the world a little nicer, one stylish gesture at a time.</p>
+
+        <h3>Our Mission</h3>
+        <p>At Marielle2Nice, our mission is to inspire and empower individuals to embrace their authentic selves and spread kindness effortlessly. We believe that style is not just about what you wear but also about how you make others feel. Through our carefully curated collections and community initiatives, we strive to foster a culture of inclusivity, positivity, and, of course, impeccable style.</p>
+
+        <h3>What Sets Us Apart</h3>
+        <ul>
+            <li><strong>Unique Style</strong> - Discover a curated selection of fashion-forward pieces that blend elegance with a touch of uniqueness.</li>
+            <li><strong>Quality Craftsmanship</strong> - Each Marielle2Nice product is crafted with precision and attention to detail, ensuring a quality that stands the test of time.</li>
+            <li><strong>Kindness Matters</strong> - We believe in the power of kindness. With every purchase, you become a part of our mission to spread positivity and make the world a better place.</li>
+        </ul>
+
+        <h3>Watch Our Story</h3>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/9A2U65wxP3s" allowfullscreen></iframe>
+
+        <h3>Listen to Our Story</h3>
+        <audio controls>
+            <source src="Audio.mp3" type="audio/mp3">
+        </audio>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Reach out to us using the following below</p>
+        <ul>
+            <li>Phone Number: 0912 345 6789</li>
+            <li>Gmail: <a href="mailto:09123456789@gmail.com">09123456789@gmail.com</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
