@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marielle2Nice - About Us</title>
+    <!-- Link Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: "Old English Text MT", Times, serif;
+            color: black;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://s3.amazonaws.com/allprograms/wp-content/uploads/2023/02/17161505/Streetwear-style.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.5); /* Change the opacity as needed */
+        }
+        section {
+            margin-bottom: 30px;
+            position: relative; /* Ensure content appears above the overlay */
+            z-index: 1; /* Ensure content appears above the overlay */
+            padding: 20px; /* Added padding to improve readability */
+            background-color: rgba(255, 255, 255, 0.5); /* Added semi-transparent white background for better readability */
+        }
+        h1, h3 {
+            color: black;
+        }
+        p {
+            color: black;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        iframe {
+            width: 100%;
+            height: 360px;
+        }
+        audio {
+            width: 100%;
+        }
+        .header-container {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            box-sizing: border-box;
+            z-index: 1;
+            background-color: black;
+        }
+        /* Additional CSS */
+        .company-name {
+            color: #fff;
+            font-size: 35px;
+        }
+
+        .navbar {
+            background-color: black;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between; /* Align items to left and right */
+            align-items: center;
+            position: relative;
+            z-index: 1;
+            padding: 10px 20px; /* Added padding for spacing */
+        }
+
+        .navbar a {
+            color: white; /* Change link text color to white */
+            text-decoration: none;
+            padding: 20px; /* Adjust padding for spacing */
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black; /* Change text color to black on hover */
+        }
+
+        .navbar-links {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-links ul {
+            display: flex;
+            margin-left: 20px; /* Adjust margin for spacing */
+        }
+
+        .navbar-links li {
+            margin: 0 5px; /* Adjust margin for spacing */
+        }
+
+        /* Additional CSS for vertical links */
+        .vertical-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .vertical-links li {
+            margin-bottom: 10px;
+        }
+
+        .vertical-links a {
+            color: black; /* Set link text color to black by default */
+            text-decoration: none;
+        }
+
+        .vertical-links a:hover {
+            background-color: #ddd;
+            color: white; /* Change text color to white on hover */
+        }
+
+        /* Additional CSS for "Our Mission" and subsequent sections */
+        section:not(:first-of-type) .vertical-links a {
+            color: black; /* Set link text color to black by default */
+        }
+
+        section:not(:first-of-type) .vertical-links a:hover {
+            background-color: #ddd;
+            color: white; /* Change text color to white on hover */
+        }
+
+        /* CSS for the footer */
+        .footer {
+            position: relative;
+            z-index: 2; /* Ensure the footer appears above the overlay */
+            padding: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <span class="company-name">Marielle2Nice</span>
+    <div class="navbar-links">
+        <a href="#home">Home</a>
+        <a href="#about-us">About Us</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<div class="overlay"></div> <!-- Add overlay div -->
+
+<section id="about-us"> <!-- Add id attribute to the section -->
+    <h3>List of Sections</h3> <!-- Add a heading for the list -->
+    <ul class="vertical-links">
+        <li><a href="#our-story">Our Story</a></li>
+        <li><a href="#our-mission">Our Mission</a></li>
+        <li><a href="#what-sets-us-apart">What Sets Us Apart</a></li>
+        <li><a href="#watch-our-story">Watch Our Story</a></li>
+        <li><a href="#listen-to-our-story">Listen To Our Story</a></li>
+    </ul>
+
+    <h1>About Us</h1>
+    <p>Welcome to <abbr title="Marielle2Nice">M.2.N</abbr>, where elegance meets warmth! We are more than just a brand; we are a community that celebrates the essence of niceness and style. Marielle2Nice is your go-to destination for exquisite fashion, unique accessories, and a touch of genuine kindness.</p>
+
+    <h3 id="our-story">Our Story</h3>
+    <p>Marielle2Nice was born out of a simple yet powerful idea – to create a space where individuals can express their unique style while radiating positivity and kindness. Founded by a team of passionate fashion enthusiasts, Marielle2Nice is not just a brand; it's a movement to make the world a little nicer, one stylish gesture at a time.</p>
+
+    <h3 id="our-mission">Our Mission</h3>
+    <p>At Marielle2Nice, our mission is to inspire and empower individuals to embrace their authentic selves and spread kindness effortlessly. We believe that style is not just about what you wear but also about how you make others feel. Through our carefully curated collections and community initiatives, we strive to foster a culture of inclusivity, positivity, and, of course, impeccable style.</p>
+
+    <h3 id="what-sets-us-apart">What Sets Us Apart</h3>
+    <p>Discover a curated selection of fashion-forward pieces that blend elegance with a touch of uniqueness. Each Marielle2Nice product is crafted with precision and attention to detail, ensuring a quality that stands the test of time. We believe in the power of kindness, and with every purchase, you become a part of our mission to spread positivity and make the world a better place.</p>
+
+    <h3 id="watch-our-story">Watch Our Story</h3>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/9A2U65wxP3s" frameborder="0" allowfullscreen></iframe>
+
+    <h3 id="listen-to-our-story">Listen to Our Story</h3>
+    <audio controls>
+        <source src="Audio.mp3" type="audio/mp3">
+    </audio>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2024 Your Website. All rights reserved.</p>
+</footer>
+
+<!-- Link Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
