@@ -1,0 +1,36 @@
+.background {
+    background: lightgrey;
+}
+
+.head {
+    background: transparent;
+}
+
+.eyeball {
+    background: white; /* Adding color to reveal eyeball */
+    border-color: black; /* Adding border color for clarity */
+}
+
+.pupil {
+    color: black; /* Making the pupil visible */
+}
+
+.beak {
+    color: orange; /* Adding color to the beak */
+}
+
+.body {
+    background: grey; /* Adding color to the body */
+}
+
+.wing {
+    background: brown; /* Adding color to the wing */
+}
+
+.drumstick {
+    color: brown; /* Adding color to the drumstick */
+}
+
+.drumstick-right {
+    color: brown; /* Adding color to the drumstick */
+}
